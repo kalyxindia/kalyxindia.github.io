@@ -2020,7 +2020,8 @@ footer {
 section > *,
 header > *,
 footer > *,
-.u-sheet > * {
+.u-sheet > *,
+.u-section-row > * {
   position: relative;
 }
 base {
@@ -16846,10 +16847,10 @@ a.pswp__share--download:hover {
   --animation-slide_out_up-translate_y: -100%;
   --animation-slide_out_left-translate_x: -100%;
   --animation-slide_out_right-translate_x: 100%;
-  --animation-custom_in-translate_x: 50px;
+  --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-scale: 0.3;
-  --animation-custom_in-rotate: 180deg;
+  --animation-custom_in-scale: 1;
+  --animation-custom_in-rotate: 0deg;
   --animation-custom_in-opacity: 0;
 }
 @keyframes bounce {
@@ -36219,6 +36220,10 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         
+        
+        
+        
+        
         }
 
         /** common-rules **/
@@ -36335,6 +36340,13 @@ a.u-link.u-text-hover-grey-90:hover {
         {
         margin-top: 20px;
         margin-bottom: 20px;
+        }
+        .u-body
+        {
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         }
         /** common-rules **/
 
